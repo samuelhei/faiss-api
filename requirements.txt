@@ -1,0 +1,17 @@
+atomicwrites==1.2.1
+attrs==18.2.0
+Click==7.0
+Flask==1.0.2
+intel-openmp==2019.0
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+more-itertools==4.3.0
+numpy==1.15.3
+pathlib2==2.3.2
+pluggy==0.8.0
+py==1.7.0
+pytest==3.9.2
+pytest-flask==0.14.0
+six==1.11.0
+Werkzeug==0.14.1
