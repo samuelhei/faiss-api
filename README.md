@@ -8,14 +8,16 @@ Faiss is a tool created by the Facebook Research team to efficiently get vector 
 
 * Export your faiss index to .index file like:
 
-> import faiss
-> index = ... #your index logic
-> index.train(data)
-> index.add(data)
-> faiss.write_index(index, "latest.index")
-> #optional - save the sequencial list of keys
-> import numpy as np
-> np.save('keys.npy', np.array(keys_list)) 
+```
+import faiss
+index = ... #your index logic
+index.train(data)
+index.add(data)
+faiss.write_index(index, "latest.index")
+#optional - save the sequencial list of keys
+import numpy as np
+np.save('keys.npy', np.array(keys_list)) 
+```
 
 * clone this repository
 * add the `latest.index` in the app root path
